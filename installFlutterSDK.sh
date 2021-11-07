@@ -31,4 +31,5 @@ if ! [ -f "$ZSHRC" ]; then
   touch $ZSHRC
 fi
 echo "export PATH="$PATH:~/Library/flutter/bin >>$ZSHRC
+exec bash
 echo "✅"
