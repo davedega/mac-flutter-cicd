@@ -1,3 +1,6 @@
+
+# Enabling Mac as CI/CD Gitlab Runner 
+
 These are the instructions to enable a Mac computer as Gitlab Runner used for CI/CD of Flutter projects.
 
 ### 1. Install Homebrew
