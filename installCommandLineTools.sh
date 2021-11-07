@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-
+echo "👁 Installing Xcode Command Line tools.."
 sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
 sudo xcodebuild -runFirstLaunch
 sudo xcodebuild -license
