@@ -10,7 +10,6 @@ case $macchip in
   wget https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.25/android-studio-2020.3.1.25-mac.dmg
   echo "👉 Open the file android-studio-2020.3.1.25-mac.dmg and drag Android Studio into the Applications"
   open .
-  open /System/Applications
   ;;
 2*)
   echo "Downloading Android Studio for Intel chip..."
