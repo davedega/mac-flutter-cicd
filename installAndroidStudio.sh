@@ -14,7 +14,7 @@ case $macchip in
 2*)
   echo "Downloading Android Studio for Intel chip..."
   wget https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.25/android-studio-2020.3.1.25-mac_arm.zip
-  unzip android-studio-2020.3.1.25-mac.zip
+  unzip android-studio-2020.3.1.25-mac_arm.zip
   mv Android\ Studio.app /System/Applications/
   echo "👉 Android Studio has been installed into Applications"
   ;;
