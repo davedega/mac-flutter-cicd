@@ -10,3 +10,4 @@ echo "👁 Installing node.."
 brew install node
 echo "👁 Installing Firebase CLI.."
 npm install -g firebase-tools
+echo "✅"
