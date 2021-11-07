@@ -30,5 +30,5 @@ if ! [ -f "$ZSHRC" ]; then
   echo "Creating $ZSHRC"
   touch $ZSHRC
 fi
-echo "export PATH="$PATH:~/library/bin >>$ZSHRC
+echo "export PATH="$PATH:~/Library/flutter/bin >>$ZSHRC
 echo "✅"
